@@ -6,7 +6,7 @@ pipeline {
 				sh "mvn clean"
 			}
 		}
-		stage (----test-----') {
+		stage ('----test-----') {
 			steps {
 				sh "mvn test"
 			}
